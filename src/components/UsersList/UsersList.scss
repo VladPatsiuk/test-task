@@ -1,0 +1,37 @@
+.users {
+  flex-grow: 1;
+  text-align: center;
+  display: flex;
+
+  &__container {
+    position: relative;
+    flex-grow: 1;
+    margin: 30px 20px;
+    // background-color: #78b6db;
+    background-color: #fee970;
+    border: 4px solid orangered;
+    box-shadow: 0px 0px 10px 5px orangered;    
+  }
+
+  &__title {
+    background-color: #fff;
+    padding: 10px;
+    font-size: 18px;
+    margin: 0px 0px 20px 0px;
+  }
+
+  &__hint {
+    position: absolute;
+    color: orangered;
+    top: 50%;
+    left: 50%;
+    font-size: 32px;
+    transform: translate(-50%, -50%);
+  }
+}
+
+@keyframes bounce {
+  0%   { -webkit-transform: translateY(0); transform: translateY(0); }
+  50%  { -webkit-transform: translateY(10px); transform: translateY(10px); }
+  100% { -webkit-transform: translateY(0); transform: translateY(0);} 
+}

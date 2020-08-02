@@ -1,0 +1,17 @@
+html, body {
+  overflow: hidden;
+  font-size: 14px;
+}
+
+body {
+  background-color: #a2d5d8;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style-type: none;
+}
