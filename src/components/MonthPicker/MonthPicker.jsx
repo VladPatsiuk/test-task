@@ -18,9 +18,9 @@ const MonthPicker = (props) => {
 
   const colorForEachNumber = (usersCount) => {
     return usersCount.map(count => {
-      if (count > 11) return "red"
-      else if (count > 7) return "green"
-      else if (count > 3) return "blue"
+      if (count >= 11) return "red"
+      else if (count >= 7) return "green"
+      else if (count >= 3) return "blue"
       else return "grey"
     })
   }
